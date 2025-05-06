@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top Up Diamond - Alifaannoo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-logo">Alifaannoo</div>
+      <a href="index.html" class="btn">Kembali</a>
+    </nav>
+
+    <!-- Order Section -->
+    <section class="hero">
+      <h1>Isi Diamond Sekarang</h1>
+      <p>Masukkan data akun & pilih nominal</p>
+    </section>
+
+    <section class="order-form">
+      <form action="#" method="POST">
+        <label for="game">Pilih Game</label>
+        <select id="game" name="game" required>
+          <option value="">-- Pilih --</option>
+          <option value="ML">Mobile Legends</option>
+          <option value="FF">Free Fire</option>
+        </select>
+
+        <label for="userid">User ID</label>
+        <input
+          type="text"
+          id="userid"
+          name="userid"
+          placeholder="Masukkan User ID"
+          required
+        />
+
+        <label for="zone">Zone ID (Opsional)</label>
+        <input
+          type="text"
+          id="zone"
+          name="zone"
+          placeholder="Masukkan Zone ID"
+        />
+
+        <label for="nominal">Nominal Diamond</label>
+        <select id="nominal" name="nominal" required>
+          <option value="">-- Pilih Nominal --</option>
+          <option value="86">86 Diamond</option>
+          <option value="172">172 Diamond</option>
+          <option value="257">257 Diamond</option>
+          <option value="514">514 Diamond</option>
+        </select>
+
+        <button type="submit" class="hero-btn">Bayar Sekarang</button>
+      </form>
+    </section>
+
+    <footer>© 2025 Alifaannoo. All rights reserved.</footer>
+  </body>
+</html>
